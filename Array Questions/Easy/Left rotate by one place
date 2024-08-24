@@ -1,0 +1,21 @@
+ https://www.naukri.com/code360/problems/left-rotate-an-array-by-one_5026278?utm_source=striver&utm_medium=website&utm_campaign=codestudio_a_zcourse
+     
+import java.util.* ;
+
+import java.io.*;                
+
+public class Solution {
+static int[] rotateArray(int[] arr, int n) {
+int temp=arr[0];
+for(int i=1;i<n;i++)
+  arr[i-1]=arr[i];
+
+arr[n-1]=temp;
+
+return arr;
+
+ 
+
+}
+
+}
